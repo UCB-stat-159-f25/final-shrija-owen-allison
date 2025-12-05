@@ -1,0 +1,72 @@
+Prompt 1 (ChatGPT): "how to change hue color scheme"
+Response:
+"""
+You can change the hue color scheme in seaborn by using the palette= argument.
+
+Here are the most common options and examples.
+
+✅ 1. Pick a Named Seaborn Palette
+sns.countplot(
+    data=clean_sd,
+    x="Target",
+    hue="Debtor",
+    palette="Set2"      # Try Set1, Set2, Set3, Pastel1, Paired, etc.
+)
+
+
+Popular palettes:
+"Set1", "Set2", "Set3", "Pastel1", "Pastel2", "Paired", "Dark2", "muted".
+
+✅ 2. Define Your Own Custom Colors
+sns.countplot(
+    data=clean_sd,
+    x="Target",
+    hue="Debtor",
+    palette=["#1f77b4", "#ff7f0e"]   # custom HEX colors
+)
+
+✅ 3. Use a Sequential or Diverging Palette
+
+If you want color intensity differences:
+
+sns.countplot(
+    data=clean_sd,
+    x="Target",
+    hue="Debtor",
+    palette=sns.color_palette("Blues", 2)
+)
+
+
+Or diverging:
+
+palette = sns.color_palette("coolwarm", 2)
+
+sns.countplot(
+    data=clean_sd,
+    x="Target",
+    hue="Debtor",
+    palette=palette
+)
+
+✅ 4. Example With Clear Labels + Custom Palette
+plt.figure(figsize=(7,5))
+
+sns.countplot(
+    data=clean_sd,
+    x="Target",
+    hue="Debtor",
+    palette=["#66c2a5", "#fc8d62"]  # Teal and Orange
+)
+
+plt.title("Debtor Status vs Student Outcome")
+plt.xlabel("Outcome")
+plt.ylabel("Count")
+plt.legend(title="Debtor", labels=["Financially Free", "Debtor"])
+
+plt.show()
+
+
+If you tell me the style or mood you want (professional, pastel, bold, high contrast), I can suggest the best palette for your project!
+"""
+
+Prompt 2:
