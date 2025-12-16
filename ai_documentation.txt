@@ -120,4 +120,24 @@ Full control: provide a list of colors or a dictionary mapping hue levels
 Can also use Matplotlib colormaps for gradients
 
 """
-Prompt 3 ( )
+Prompt 3 (Gemini) Shrija: "is previous qualification grade or an admission grade better when evaluating a student"
+Response:
+"""
+In general, the previous qualification grade (e.g., high school GPA) is considered a better single predictor of future academic success in higher education than a specific "admission grade" or standardized test score. 
+Here is a breakdown of why:
+
+Previous Qualification Grade
+Strongest Predictor: A student's day-to-day academic performance over a long period (like high school) is widely considered the most significant indicator of how they will perform in college.
+Comprehensive Picture: Grades in previous courses provide a detailed story about a student's work ethic, their choices in course rigor, and their ability to manage responsibilities over time.
+Consistency: Research suggests that high school GPA is a consistently strong predictor for not only freshman year performance, but also four-year outcomes, including cumulative grades and graduation rates.
+Less Bias: Some studies argue that grades are less influenced by socioeconomic factors compared to standardized admission tests, providing a more equitable measure of potential. 
+
+Admission Grade
+Definition Varies: An "admission grade" can refer to different things, such as a specific entrance exam score (like the SAT/ACT), or a calculated score that combines previous grades and exam results.
+Snapshot in Time: Standardized admission test scores are single-day assessments and may not capture a student's full potential due to factors like test anxiety or an off day.
+Inconsistency in Prediction: While some research shows a positive correlation between entry/admission grades and early academic achievement, other studies find an inconsistent or only slightly positive, low correlation with long-term academic success.
+Used as Part of a Whole: Admission grades/scores are typically just one component of a holistic review process, which also includes essays, recommendations, and the rigor of previous coursework. 
+
+Conclusion
+When evaluating a student, institutions generally find that previous qualification grades offer a more reliable and holistic measure of a student's capability and potential for sustained success in a rigorous academic environment. Both metrics, however, can provide valuable insights when used as part of a comprehensive evaluation process. 
+"""
