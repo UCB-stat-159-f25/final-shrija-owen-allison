@@ -69,4 +69,55 @@ plt.show()
 If you tell me the style or mood you want (professional, pastel, bold, high contrast), I can suggest the best palette for your project!
 """
 
-Prompt 2:
+Prompt 2: (ChatGPT) Shrija: What are my color options for bar graphs?
+Response:
+"""
+For bar graphs in Seaborn, you have several ways to control colors. Here’s a detailed overview:
+
+1️⃣ Using palette in Seaborn
+
+Seaborn supports a palette argument in functions like sns.barplot and sns.catplot. You can pass:
+
+a) Named palettes (built-in)
+
+sns.catplot(..., palette="deep")      # default
+sns.catplot(..., palette="muted")
+sns.catplot(..., palette="bright")
+sns.catplot(..., palette="pastel")
+sns.catplot(..., palette="dark")
+sns.catplot(..., palette="colorblind")
+
+b) Custom list of colors
+You can specify exact colors for each hue level:
+sns.catplot(..., palette=["#1f77b4", "#ff7f0e"])  # blue and orange
+
+c) Color maps from Matplotlib
+sns.catplot(..., palette="viridis")
+sns.catplot(..., palette="coolwarm")
+sns.catplot(..., palette="plasma")
+sns.catplot(..., palette="Set2")
+
+2️⃣ Using a single color for all bars
+If you don’t want a hue distinction, you can set a single color:
+sns.barplot(..., color="skyblue")
+
+3️⃣ Custom palettes for categorical variables
+
+You can define a dictionary mapping hue levels to colors:
+palette = {"Mother": "skyblue", "Father": "orange"}
+sns.catplot(..., palette=palette)
+
+4️⃣ Using Matplotlib after plotting
+for i, p in enumerate(ax.patches):
+    p.set_color("#ff7f0e")  # orange
+
+✅ Summary
+
+Quick: use Seaborn built-in palettes (deep, muted, pastel, etc.)
+
+Full control: provide a list of colors or a dictionary mapping hue levels
+
+Can also use Matplotlib colormaps for gradients
+
+"""
+Prompt 3 ( )
