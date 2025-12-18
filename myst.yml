@@ -19,7 +19,6 @@ site:
 toc:
 
   - file: title_page.ipynb
-    open_in_same_tab: true
   
   - file: main.ipynb
 
