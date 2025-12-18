@@ -8,7 +8,7 @@ This is our final project for STAT 159. For more, please navigate to index.ipynb
 
 # Website
 
-[![Binder](https://mybinder.org/v2/gh/UCB-stat-159-f25/final-shrija-owen-allison/HEAD?urlpath=%2Fdoc%2Ftree%2Findex.ipynb)
+![Binder](https://mybinder.org/v2/gh/UCB-stat-159-f25/final-shrija-owen-allison/HEAD?urlpath=%2Fdoc%2Ftree%2Findex.ipynb)
 
 MyST: https://stat159.datahub.berkeley.edu/user/allisonvyn/myst-build/final-shrija-owen-allison/
 
