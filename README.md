@@ -1,16 +1,17 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/sSkqmNLf)
 
-# Final Project
-## Exploratory Analysis of the Factors in Academic Success
+
+## Binder
+![Binder](https://mybinder.org/v2/gh/UCB-stat-159-f25/final-shrija-owen-allison/HEAD)
+
+# Final Project: Exploratory Analysis of the Factors in Academic Success
 
 # Description
 This is our final project for STAT 159. For more information, please navigate to index.ipynb
 
 # Website
 
-![Binder](https://mybinder.org/v2/gh/UCB-stat-159-f25/final-shrija-owen-allison/HEAD?urlpath=%2Fdoc%2Ftree%2Findex.ipynb)
-
-MyST: https://stat159.datahub.berkeley.edu/user/allisonvyn/myst-build/final-shrija-owen-allison/
+MyST: https://stat159.datahub.berkeley.edu/user/allisonvyn/myst-build/final-shrija-owen-allison/main/
 
 
 
