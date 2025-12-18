@@ -1,15 +1,29 @@
-# See docs at: https://mystmd.org/guide/frontmatter
 version: 1
+
 project:
-  id: a54ab07d-4123-4ef4-924e-324cba1685aa
-  # title:
-  # description:
-  # keywords: []
-  # authors: []
+  id: final-159-f25
+  title: Project 02 — Reproducibility in Natural Language Processing
+  authors:
+    - name: Shrija
+    - name: Owen
+    - name: Allison
   github: https://github.com/UCB-stat-159-f25/final-shrija-owen-allison
-  # To autogenerate a Table of Contents, run "myst init --write-toc"
+  jupyter:
+    binder:
+      repo: https://github.com/UCB-stat-159-f25/proj02-shrija-owen-allison.git
+
 site:
   template: book-theme
-  # options:
-  #   favicon: favicon.ico
-  #   logo: site_logo.png
+
+toc:
+  - file: README.md
+
+  - file: title_page.ipynb
+
+  - file: parent_eda.ipynb
+
+  - file: student_eda.ipynb
+
+  - file: regression_analysis.ipynb
+
+
