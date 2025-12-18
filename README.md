@@ -4,7 +4,7 @@
 ## Exploratory Analysis of the Factors in Academic Success
 
 # Description
-This is our final project for STAT 159. For more, please navigate to index.ipynb
+This is our final project for STAT 159. For more information, please navigate to index.ipynb
 
 # Website
 
