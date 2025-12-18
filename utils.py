@@ -110,7 +110,7 @@ EDU_ORDER = [
 
 OUTCOME_PALETTE = {"Dropout": "red", "Graduate": "green"}
 MEAN_MEDIAN_PALETTE = {"Mean": "steelblue", "Median": "lightblue"}
-TUITION_PALETTE = {"Tuition to date": "lightcoral", "Tuition not to date": "firebrick"}
+TUITION_PALETTE = {"To date": "lightcoral", "Not to date": "firebrick"}
 DEBT_PALETTE = {"Has Debt": "darkorange", "No Debt": "lemonchiffon"}
 SCHOLARSHIP_PALETTE = {"Scholarship": "mediumpurple", "No Scholarship": "thistle"}
 
