@@ -11,7 +11,8 @@ project:
   jupyter:
     binder:
       repo: https://github.com/UCB-stat-159-f25/final-shrija-owen-allison.git
-
+  exclude:
+    - readme.md
 site:
   template: book-theme
 
