@@ -11,7 +11,7 @@ This is our final project for STAT 159. For more information, please navigate to
 
 # Website
 
-MyST: https://stat159.datahub.berkeley.edu/user/allisonvyn/myst-build/final-shrija-owen-allison/main/
+MyST: https://ucb-stat-159-f25.github.io/final-shrija-owen-allison/
 
 
 
