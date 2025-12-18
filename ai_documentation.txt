@@ -141,3 +141,12 @@ Used as Part of a Whole: Admission grades/scores are typically just one componen
 Conclusion
 When evaluating a student, institutions generally find that previous qualification grades offer a more reliable and holistic measure of a student's capability and potential for sustained success in a rigorous academic environment. Both metrics, however, can provide valuable insights when used as part of a comprehensive evaluation process. 
 """
+
+Prompt 4 (Gemini) Allison:
+The code is making main.ipynb the title page and not title_page.ipynb. Why is this the case?
+
+"""
+The issue is how the Table of Contents (ToC) is structured in your configuration. In MyST and Jupyter Book, the first item in your ToC list isn't automatically the homepage (root) unless explicitly defined as such, or if the file structure forces it.
+
+Currently, your configuration lists title_page.ipynb as just another file. The build tool is likely defaulting to main.ipynb (perhaps alphabetically or because it sees title_page as a "part" rather than a root) or failing to recognize your structure entirely.
+"""
