@@ -2,7 +2,7 @@ version: 1
 
 project:
   id: final-159-f25
-  title: Project 02 — Reproducibility in Natural Language Processing
+  title: Exploratory Analysis of the Factors in Academic Success
   authors:
     - name: Shrija
     - name: Owen
@@ -10,7 +10,7 @@ project:
   github: https://github.com/UCB-stat-159-f25/final-shrija-owen-allison
   jupyter:
     binder:
-      repo: https://github.com/UCB-stat-159-f25/proj02-shrija-owen-allison.git
+      repo: https://github.com/UCB-stat-159-f25/final-shrija-owen-allison.git
 
 site:
   template: book-theme
