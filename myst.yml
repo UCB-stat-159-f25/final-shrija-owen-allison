@@ -19,6 +19,7 @@ site:
 toc:
 
   - file: title_page.ipynb
+    title: Home
   
   - file: main.ipynb
 
