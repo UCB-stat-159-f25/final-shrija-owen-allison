@@ -13,6 +13,7 @@ project:
       repo: https://github.com/UCB-stat-159-f25/final-shrija-owen-allison.git
   exclude:
     - README.md
+    - project-description.md
 site:
   template: book-theme
 

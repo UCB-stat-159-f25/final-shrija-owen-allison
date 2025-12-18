@@ -143,7 +143,7 @@ When evaluating a student, institutions generally find that previous qualificati
 """
 
 Prompt 4 (Gemini) Allison:
-The code is making main.ipynb the title page and not title_page.ipynb. Why is this the case?
+[For MyST deployment] The code is making main.ipynb the title page and not title_page.ipynb. Why is this the case?
 
 """
 The issue is how the Table of Contents (ToC) is structured in your configuration. In MyST and Jupyter Book, the first item in your ToC list isn't automatically the homepage (root) unless explicitly defined as such, or if the file structure forces it.
