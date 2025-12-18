@@ -18,7 +18,7 @@ site:
   template: book-theme
 
 toc:
-  - file: title_page.ipynb 
+  - file: index.ipynb 
   - section: Chapters     
     parts:
       - file: main.ipynb
