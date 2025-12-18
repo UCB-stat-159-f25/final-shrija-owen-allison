@@ -19,6 +19,8 @@ toc:
   - file: README.md
 
   - file: title_page.ipynb
+  
+  - file: main.ipynb
 
   - file: parent_eda.ipynb
 
