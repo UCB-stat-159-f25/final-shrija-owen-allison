@@ -13,7 +13,7 @@ This is our final project for STAT 159. For more information, please navigate to
 
 MyST: https://ucb-stat-159-f25.github.io/final-shrija-owen-allison/
 
-
+      
 
 
 ## Acknowledgements
